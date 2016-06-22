@@ -13,13 +13,14 @@ let s:base0 = [ '#808080', 244 ]
 let s:base1 = [ '#969696', 247 ]
 let s:base2 = [ '#a8a8a8', 248 ]
 let s:base3 = [ '#d0d0d0', 252 ]
-let s:yellow = [ '#cae682', 180 ]
-let s:orange = [ '#e5786d', 173 ]
-let s:red = [ '#e5786d', 203 ]
-let s:magenta = [ '#f2c68a', 216 ]
-let s:blue = [ '#8ac6f2', 117 ]
-let s:cyan = s:blue
-let s:green = [ '#95e454', 119 ]
+
+let s:yellow = [ '#e5c07b', 180 ]
+let s:red = [ '#e06c75', 168 ]
+let s:magenta = [ '#c678dd', 176 ]
+let s:blue = [ '#61afef', 75 ]
+let s:cyan = [ '#56b6c2', 73 ]
+let s:green = [ '#98c379', 114 ]
+
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 let s:p.normal.left = [ [ s:base02, s:blue ], [ s:base3, s:base01 ] ]
 let s:p.normal.right = [ [ s:base02, s:base0 ], [ s:base1, s:base01 ] ]
